@@ -1,0 +1,5 @@
+cd /subsystem=logging
+./logging-profile=training:add
+cd logging-profile=training
+./file-handler=training:add(file={"path"=>"training.log", relative-to=>"jboss.server.log.dir"}
+./logger=com.redhat.training.view:add(handlers=[training])
