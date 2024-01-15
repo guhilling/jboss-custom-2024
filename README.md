@@ -10,3 +10,6 @@
 * Security (Ch.9, p. 387)
 
   See https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.4/html/how_to_configure_identity_management/elytron_secure_apps#elytron_apps_DBAuth
+
+  * Create DB resources as described.
+  * In 3. (p. 389), use the provided ```create-db-security.cli``` instead.
